@@ -1,76 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ghore Boshe Programming</title>
-    <!-- boot  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playpen+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- css  -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="upre">
-        <h1>Ghore Boshe Programming</h1>
-        <div class="loginsignup">
-          <div class="navButton">Login</div>
-          |
-          <div class="navButton">Sign up</div>
-        </div>
-      </div>
-      <div class="nav">
-        <div class="nav-left">
-          <a href="#">Home</a>
-          <a href="./about-us.html">About Us</a>
-          <a href="./admission.html">Admission</a>
-          <a href="./course.html">Courses</a>
-          <a href="./contact.html">Contact</a>
-        </div>
-
-        <div class="nav-right">
-          <div class="search-bar">
-            <input type="text" placeholder="Search" />
-            <button type="submit" class="icon-pic">
-              <div class="icon-pic"></div>
-            </button>
-          </div>
-
-          <div class="dropdown" style="margin-left: 100px">
-            <button class="dropbtn">Choose Language</button>
-            <div class="dropdown-content">
-              <a href="#">English</a>
-              <a href="#">Bangla</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
+ <main>
       <div class="hero">
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
@@ -143,9 +71,12 @@
       <br /><br />
 
       <div>
-        <div >Our Pride & Moderators</div>
-        
+        <div>Our Pride & Moderators</div>
+        <div>alpha.akib</div>
+        <div>alpha.akib</div>
+        <div>AOM ramim</div>
+        <div>chatok.jr</div>
+        <div>chatok.jr</div>
+        <div>robot mim</div>
       </div>
     </main>
-  </body>
-</html>
