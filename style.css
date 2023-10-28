@@ -191,7 +191,7 @@ h1 {
 .moderator-panel{
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 120px;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -207,3 +207,4 @@ h1 {
     width: 100%;
     background-size: cover;
 }
+
