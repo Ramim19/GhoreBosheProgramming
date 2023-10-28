@@ -208,3 +208,14 @@ h1 {
     background-size: cover;
 }
 
+
+
+/* comment */
+.comment{
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid rgb(88, 48, 21);
+}
+.comment-img{
+  width: ;
+}
