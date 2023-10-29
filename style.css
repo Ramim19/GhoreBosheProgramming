@@ -7,7 +7,7 @@ header {
   /* top: 0; */
 }
 div {
-  /* border: 1px solid rgb(218, 192, 81); */
+  /* border: 1px solid rgb(70, 32, 32); */
 }
 .flex {
   display: flex;
@@ -202,33 +202,82 @@ h1 {
 .mod-panel-card {
   width: 260px;
   background-color: #f5f5f5;
-  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3); */
+  transition: 0.3s;
+  border: 1px solid #00171f;
   border-radius: 5px;
   padding: 10px;
   /* margin-bottom: 20px; */
+}
+.mod-panel-card:hover{
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
 }
 .mod-panel-img img {
   width: 100%;
   background-size: cover;
 }
 
+/* course  */
+.course{
+  font-family: "Libre Baskerville", serif;
+  font-size: 2em;
+  padding-bottom: 2rem;
+}
 .course-card {
   margin-bottom: 20px;
+  border: 1px solid #00171f;
+  background-color: #f5f5f5;
 }
-
 .course-card:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-  max-height: 200px; /* Set the maximum height */
-  max-width: 100%; /* Set the maximum width to 100% to maintain aspect ratio */
+  max-height: 200px; 
+  max-width: 100%; 
   object-fit: contain;
 }
-
 #courses {
   margin-bottom: 2rem;
 }
-
 #courses a {
   transition: 0.3s;
+}
+.text-center{
+  /* border: 1px solid; */
+  margin-top: -2rem;
+}
+.text-center button{
+  background-color: #003459;
+  border: #00171f;
+}
+.text-center button:hover{
+  background-color: #00a8e8;
+}
+.text-center button:visited{
+  background-color: #00a8e8;
+}
+
+
+/* comment */
+.comment{
+  margin-top: 6rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid #00171f;
+  display: flex;
+}
+.comment-img{
+  width: 40%;
+  background-image: url(image/comment.jpg);
+  background-size: cover;
+}
+.comment-img img{
+  margin-left: -5%;
+}
+.comment-box{
+  width: 60%;
+  background-color: #f5f5f5;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
