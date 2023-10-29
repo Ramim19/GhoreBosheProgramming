@@ -281,50 +281,37 @@ h1 {
   padding-right: 3rem;
 }
 
+/* last  */
 .social-icon {
   width: 30px;
   height: 30px;
+  margin-right: 1rem;
 }
-
-.socials > *:not(:first-child) {
-  margin-left: 1rem;
-}
-
 .first-part {
   background-color: #003459;
   color: white;
   padding: 2rem;
 }
-
-.first-part p:last-child {
-  margin-bottom: 0;
-}
-
 .second-part {
   background-color: #00171f;
   color: white;
 }
-
 .copyright {
   text-align: center;
   font-size: 12px;
   padding: 1rem;
 }
-
 .copyright a {
   text-decoration: none;
   font-weight: bold;
   color: #00a8e8;
 }
-
 .copyright a:hover {
   color: #003459;
 }
-
 .copyright a:visited {
   background-color: #00a8e8;
 }
-
 .copyright p {
   margin: 10px 0px;
 }
