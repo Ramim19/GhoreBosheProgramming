@@ -209,7 +209,7 @@ h1 {
   padding: 10px;
   /* margin-bottom: 20px; */
 }
-.mod-panel-card:hover{
+.mod-panel-card:hover {
   box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
 }
 .mod-panel-img img {
@@ -218,7 +218,7 @@ h1 {
 }
 
 /* course  */
-.course{
+.course {
   font-family: "Libre Baskerville", serif;
   font-size: 2em;
   padding-bottom: 2rem;
@@ -232,8 +232,8 @@ h1 {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-  max-height: 200px; 
-  max-width: 100%; 
+  max-height: 200px;
+  max-width: 100%;
   object-fit: contain;
 }
 #courses {
@@ -242,42 +242,89 @@ h1 {
 #courses a {
   transition: 0.3s;
 }
-.text-center{
+.text-center {
   /* border: 1px solid; */
   margin-top: -2rem;
 }
-.text-center button{
+.text-center button {
   background-color: #003459;
   border: #00171f;
 }
-.text-center button:hover{
+.text-center button:hover {
   background-color: #00a8e8;
 }
-.text-center button:visited{
+.text-center button:visited {
   background-color: #00a8e8;
 }
-
 
 /* comment */
-.comment{
+.comment {
   margin-top: 6rem;
   margin-left: 15%;
   margin-right: 15%;
   border: 1px solid #00171f;
   display: flex;
 }
-.comment-img{
+.comment-img {
   width: 40%;
   background-image: url(image/comment.jpg);
   background-size: cover;
 }
-.comment-img img{
+.comment-img img {
   margin-left: -5%;
 }
-.comment-box{
+.comment-box {
   width: 60%;
   background-color: #f5f5f5;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.socials > *:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.first-part {
+  background-color: #003459;
+  color: white;
+  padding: 2rem;
+}
+
+.first-part p:last-child {
+  margin-bottom: 0;
+}
+
+.second-part {
+  background-color: #00171f;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+}
+
+.copyright a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #00a8e8;
+}
+
+.copyright a:hover {
+  color: #003459;
+}
+
+.copyright a:visited {
+  background-color: #00a8e8;
+}
+
+.copyright p {
+  margin: 10px 0px;
 }
