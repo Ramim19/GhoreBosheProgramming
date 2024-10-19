@@ -5,6 +5,7 @@
 header {
   /* position: sticky; */
   /* top: 0; */
+  /* z-index: 1000; */
 }
 div {
   /* border: 1px solid rgb(70, 32, 32); */
@@ -51,6 +52,9 @@ a {
   background-color: #003459;
   display: flex;
   justify-content: space-evenly;
+  /* position: sticky; */
+  /* top: 100; */
+  /* z-index: 1000; */
 }
 .nav-left {
   display: flex;
@@ -152,7 +156,7 @@ a {
 }
 .running-bar {
   font-size: 1.4em;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
   font-family: "Playpen Sans", cursive;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -226,7 +230,7 @@ h1 {
 .course-card {
   margin-bottom: 20px;
   border: 1px solid #00171f;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 .course-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -281,50 +285,66 @@ h1 {
   padding-right: 3rem;
 }
 
+/* last  */
 .social-icon {
   width: 30px;
   height: 30px;
+  margin-right: 1rem;
 }
-
-.socials > *:not(:first-child) {
-  margin-left: 1rem;
-}
-
 .first-part {
   background-color: #003459;
   color: white;
   padding: 2rem;
 }
-
-.first-part p:last-child {
-  margin-bottom: 0;
-}
-
 .second-part {
   background-color: #00171f;
   color: white;
 }
-
 .copyright {
   text-align: center;
   font-size: 12px;
   padding: 1rem;
 }
-
 .copyright a {
   text-decoration: none;
   font-weight: bold;
   color: #00a8e8;
 }
-
 .copyright a:hover {
   color: #003459;
 }
-
 .copyright a:visited {
   background-color: #00a8e8;
 }
-
 .copyright p {
   margin: 10px 0px;
+}
+
+
+/* language */
+.lang-change{
+  margin: 2rem 5% 5% ;
+}
+
+/* about us page  */
+.head-name{
+  font-family: "Libre Baskerville", serif;
+  font-size: 2em;
+
+}
+.chairman{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2rem;
+}
+.chairman-description{
+  padding-top: 2rem;
+}
+.chairman-description img{
+  width: 40%;
+  border-radius: 50% ;
+}
+.chairman-talk{
+  padding-left: 3rem;
+  padding-top: 4rem;
 }
